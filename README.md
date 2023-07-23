@@ -1,5 +1,7 @@
 # CSP-Problems-Solutions
-This are solutions to simple CSP problems using pyhton.
+This are solutions to simple CSP problems using pyhton notebooks for each puzzle. I found it easier to use notebooks personally you can implement the code as you wish yourself it's all the same. There's a different notebook for each puzzle.
+
+
 ## Problem 1
 In the first problem we will colour the states of Australia ensuring the adjacent states don't share the same colours given.
 
@@ -27,22 +29,15 @@ In our case given N = 3 and the magic sum = 15 our job is to find the cell value
 
 ## Problem 3
 
-We will solve a sudoku puzzle.
+We will solve a 9x9 sudoku puzzle using CSP.
 
 ## Problem 4
 
-Battleship puzzle 
-NxN grid
-• Each cell occupied by
-water or part of a ship
-• Given
-– Ships of varying lengths
-– Row and column sums of
-number of ship cells
-• What are
-– variables and domains
-– constraints
+Battleship puzzle which in our case is an NxN grid Each cell occupied by water or part of a ship. Given ships of varying lengths Row and column sums of number of ship cells. Ships can be oriented vertically or horizontally, but not diagonally. 
 
+Ships are not allowed to touch each other, even diagonally. This means that each ship must be surrounded by at least one square of water on all sides and corners. We have to solve this using CSPs.
+
+![Alt text](BAttleship2.png)                               ![Alt text](Battleship1.png)
 
 
 
